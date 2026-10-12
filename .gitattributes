@@ -5,3 +5,5 @@ assets/video/video-01/video-01.mp4 -filter -diff -merge -text
 assets/video/video-02/video-02.mp4 -filter -diff -merge -text
 
 assets/video/video-03/video-03.mp4 -filter -diff -merge -text
+
+assets/video/video-04/video-04.mp4 -filter -diff -merge -text
