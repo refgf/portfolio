@@ -15,3 +15,13 @@ assets/video/video-14/video-14.mp4 -filter -diff -merge -text
 assets/video/video-15/video-15.mp4 -filter -diff -merge -text
 
 assets/video/video-16/video-16.mp4 -filter -diff -merge -text
+
+assets/video/video-06/video-06.mp4 -filter -diff -merge -text
+
+assets/video/video-07/video-07.mp4 -filter -diff -merge -text
+
+assets/video/video-10/video-10.mp4 -filter -diff -merge -text
+
+assets/video/video-11/video-11.mp4 -filter -diff -merge -text
+
+assets/video/video-12/video-12.mp4 -filter -diff -merge -text
