@@ -710,7 +710,9 @@
         '灰白城市','女主卧室','地铁车厢','快餐店','办公区','灰色通道','石像广场','夜街人群',
         '荒原公路','彩色荒原','游乐园','城市公园','湖边栏杆','星空岩石','童年房间','童年街区垃圾桶'
       ];
-      sceneGrid.innerHTML = lostScenes.map(function(name, i){
+      sceneGrid.innerHTML = '<article class="visual-card" style="grid-column:1/-1"><img class="scene-img" src="assets/video/video-05/scene-overview.png" alt="《别再把她弄丢了》场景资产总览">' +
+        '<div class="card-caption"><strong>场景资产总览</strong><span>SCENE OVERVIEW</span></div></article>' +
+        lostScenes.map(function(name, i){
         var n = String(i + 1).padStart(2, '0');
         return '<article class="visual-card"><img class="scene-img" src="assets/video/video-05/scene-' + n + '.png" alt="' + name + '">' +
           '<div class="card-caption"><strong>' + name + '</strong><span>SCENE ' + n + '</span></div></article>';

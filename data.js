@@ -652,7 +652,7 @@
     { id:11, cat:3, title:'双生偿命', year:2025, type:'系列剧集', seed:801, pal:4, image:'assets/video/covers/cover-11.jpg', desc:'一对年幼双胞胎在一场庄园事故中一死一伤，活下来的女孩被送入私人医院进行“记忆重建”。多年后，她开始在手术区走廊与马场之间看见另一个自己的残影，并发现当年被偿命的，或许从来不是意外。' },
     { id:12, cat:3, title:'Five Tears to Live', year:2026, type:'系列剧集', seed:811, pal:5, image:'assets/video/covers/cover-12.jpg', desc:'濒死女孩 Lily 在灵界获得五次落泪的机会，每滴泪都能改写一段人间遗憾。她在无边灵界、湖岸与旧日豪宅之间穿行，试图用最后的眼泪唤回本该活下去的人。' },
     { id:13, cat:3, title:'债务契约', year:2026, type:'系列剧集', seed:821, pal:0, image:'assets/video/covers/cover-13.jpg', desc:'普通职员莉莉为救重病家人签下神秘债务契约，债权人却是一位西装革履的狼总裁。在都市高楼与复古书房之间，她逐渐发现这笔债务偿还不清的，或许是命运本身。' },
-    { id:14, cat:4, title:'尘域枪手',      year:2026, type:'影视游戏 PV', seed:831, pal:1, image:'assets/video/covers/cover-14.jpg', desc:'（占位文案，请替换为该视频项目的介绍）' },
+    { id:14, cat:4, title:'尘域枪手',      year:2026, type:'影视游戏 PV', seed:831, pal:1, image:'assets/video/covers/cover-14.jpg', desc:'荒漠工业城中的西部枪手对决，围绕左轮、掩体与重装敌人展开高速攻防，融合废土质感与工业科幻视觉。' },
     { id:15, cat:5, title:'变装',          year:2026, type:'AI 变装短片', seed:841, pal:2, image:'assets/video/covers/cover-15.jpg', desc:'以咖啡馆为舞台，通过节拍、动作与镜头遮挡完成六套造型的连续切换，在统一角色与空间中呈现轻快利落的时尚变装。' },
     { id:16, cat:5, title:'激光仓库突围',  year:2026, type:'游戏推广短片', seed:851, pal:3, image:'assets/video/covers/cover-16.jpg', desc:'黑发女特工潜入布满红色激光防线的工业仓库，在侦察无人机协同下突破蓝甲士兵封锁，与重甲指挥官展开正面对决。' }
   ];
