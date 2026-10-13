@@ -25,3 +25,6 @@ assets/video/video-10/video-10.mp4 -filter -diff -merge -text
 assets/video/video-11/video-11.mp4 -filter -diff -merge -text
 
 assets/video/video-12/video-12.mp4 -filter -diff -merge -text
+assets/video/video-08/video-08.mp4 -filter -diff -merge binary
+assets/video/video-09/video-09.mp4 -filter -diff -merge binary
+assets/video/video-13/video-13.mp4 -filter -diff -merge binary

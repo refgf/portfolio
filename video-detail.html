@@ -437,14 +437,14 @@
       assetGrid.innerHTML = '<article class="visual-card"><img class="asset-img" src="assets/video/video-08/asset-01.png" alt="深海联姻核心道具资产板">' +
         '<div class="card-caption"><strong>核心道具资产板</strong><span>PROP 01</span></div></article>';
     } else if(v.id === 9){
-      filmMedia.innerHTML = '<video class="project-video" controls preload="metadata" playsinline poster="assets/video/video-09/scene-01.jpg">' +
+      filmMedia.innerHTML = '<video class="project-video" controls preload="metadata" playsinline poster="assets/video/video-09/scene-01.png">' +
         '<source src="assets/video/video-09/video-09.mp4" type="video/mp4">您的浏览器不支持视频播放。</video>';
 
       var wuCharacters = [
-        { src:'assets/video/video-09/character-01.jpg', name:'现代青年' },
-        { src:'assets/video/video-09/character-02.jpg', name:'猎人首领' },
-        { src:'assets/video/video-09/character-03.jpg', name:'白发长者' },
-        { src:'assets/video/video-09/character-04.jpg', name:'抱柴男孩' }
+        { src:'assets/video/video-09/character-01.png', name:'现代青年' },
+        { src:'assets/video/video-09/character-02.png', name:'猎人首领' },
+        { src:'assets/video/video-09/character-03.png', name:'白发长者' },
+        { src:'assets/video/video-09/character-04.png', name:'抱柴男孩' }
       ];
       turnGrid.innerHTML = wuCharacters.map(function(item, i){
         var n = String(i + 1).padStart(2, '0');
@@ -452,26 +452,26 @@
           '<div class="card-caption"><strong>' + item.name + '</strong><span>CHARACTER ' + n + '</span></div></article>';
       }).join('');
 
-      sceneGrid.innerHTML = '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-01.jpg" alt="雨后山林">' +
+      sceneGrid.innerHTML = '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-01.png" alt="雨后山林">' +
         '<div class="card-caption"><strong>雨后山林</strong><span>SCENE 01</span></div></article>' +
-        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-02.jpg" alt="深山峡谷眺望点">' +
+        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-02.png" alt="深山峡谷眺望点">' +
         '<div class="card-caption"><strong>深山峡谷眺望点</strong><span>SCENE 02</span></div></article>' +
-        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-03.jpg" alt="林间石龛">' +
+        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-03.png" alt="林间石龛">' +
         '<div class="card-caption"><strong>林间石龛</strong><span>SCENE 03</span></div></article>' +
-        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-04.jpg" alt="隐蔽山村全景">' +
+        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-04.png" alt="隐蔽山村全景">' +
         '<div class="card-caption"><strong>隐蔽山村全景</strong><span>SCENE 04</span></div></article>' +
-        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-05.jpg" alt="山村入口">' +
+        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-05.png" alt="山村入口">' +
         '<div class="card-caption"><strong>山村入口</strong><span>SCENE 05</span></div></article>' +
-        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-06.jpg" alt="村中主路">' +
+        '<article class="visual-card"><img class="scene-img" src="assets/video/video-09/scene-06.png" alt="村中主路">' +
         '<div class="card-caption"><strong>村中主路</strong><span>SCENE 06</span></div></article>';
 
-      assetGrid.innerHTML = '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-01.jpg" alt="裂屏手机">' +
+      assetGrid.innerHTML = '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-01.png" alt="裂屏手机">' +
         '<div class="card-caption"><strong>裂屏手机</strong><span>PROP 01</span></div></article>' +
-        '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-02.jpg" alt="临时木杖">' +
+        '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-02.png" alt="临时木杖">' +
         '<div class="card-caption"><strong>临时木杖</strong><span>PROP 02</span></div></article>' +
-        '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-03.jpg" alt="三齿草叉">' +
+        '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-03.png" alt="三齿草叉">' +
         '<div class="card-caption"><strong>三齿草叉</strong><span>PROP 03</span></div></article>' +
-        '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-04.jpg" alt="捆绑麻绳">' +
+        '<article class="visual-card"><img class="asset-img" src="assets/video/video-09/asset-04.png" alt="捆绑麻绳">' +
         '<div class="card-caption"><strong>捆绑麻绳</strong><span>PROP 04</span></div></article>';
     } else if(v.id === 10){
       filmMedia.innerHTML = '<video class="project-video" controls preload="metadata" playsinline poster="assets/video/video-10/scene-01.png">' +
@@ -551,12 +551,12 @@
       assetGrid.innerHTML = '<article class="visual-card"><img class="asset-img" src="assets/video/video-12/asset-01.png" alt="关键道具设定板">' +
         '<div class="card-caption"><strong>关键道具设定板</strong><span>ASSET 01</span></div></article>';
     } else if(v.id === 13){
-      filmMedia.innerHTML = '<video class="project-video" controls preload="metadata" playsinline poster="assets/video/video-13/scene-01.jpg">' +
+      filmMedia.innerHTML = '<video class="project-video" controls preload="metadata" playsinline poster="assets/video/video-13/scene-01.png">' +
         '<source src="assets/video/video-13/video-13.mp4" type="video/mp4">您的浏览器不支持视频播放。</video>';
 
       var debtCharacters = [
-        { src:'assets/video/video-13/character-01.jpg', name:'狼总裁' },
-        { src:'assets/video/video-13/character-02.jpg', name:'莉莉' }
+        { src:'assets/video/video-13/character-01.png', name:'狼总裁' },
+        { src:'assets/video/video-13/character-02.png', name:'莉莉' }
       ];
       turnGrid.innerHTML = debtCharacters.map(function(item, i){
         var n = String(i + 1).padStart(2, '0');
@@ -565,11 +565,11 @@
       }).join('');
 
       sceneGrid.classList.add('single');
-      sceneGrid.innerHTML = '<article class="visual-card"><img class="scene-img" src="assets/video/video-13/scene-01.jpg" alt="场景设定图">' +
+      sceneGrid.innerHTML = '<article class="visual-card"><img class="scene-img" src="assets/video/video-13/scene-01.png" alt="场景设定图">' +
         '<div class="card-caption"><strong>场景设定图</strong><span>SCENE 01</span></div></article>';
 
       assetGrid.classList.add('single');
-      assetGrid.innerHTML = '<article class="visual-card"><img class="asset-img" src="assets/video/video-13/asset-01.jpg" alt="道具设定图">' +
+      assetGrid.innerHTML = '<article class="visual-card"><img class="asset-img" src="assets/video/video-13/asset-01.png" alt="道具设定图">' +
         '<div class="card-caption"><strong>道具设定图</strong><span>ASSET 01</span></div></article>';
     } else if(v.id === 14){
       filmMedia.innerHTML = '<video class="project-video" controls preload="metadata" playsinline poster="assets/video/video-14/scene-01.png">' +
