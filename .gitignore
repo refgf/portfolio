@@ -7,4 +7,10 @@ Thumbs.db
 
 # 视频文件过大（2.1GB），超出 GitHub 免费额度，暂不纳入仓库
 # 部署时请将视频托管到对象存储并更新引用路径
-assets/video/
+assets/video/*
+# 封面图很小，随仓库发布（作品集卡片需要真实封面）
+!assets/video/covers/
+assets/video/covers/*
+!assets/video/covers/cover-01.jpg
+!assets/video/covers/cover-02.jpg
+!assets/video/covers/cover-03.jpg
